@@ -45,8 +45,6 @@ h1 {
 
 .navbar ul{
     list-style: none;
-    padding: ;
-    margin: ;
     display: flex; 
     text-decoration: none;
 }
@@ -80,7 +78,7 @@ main section {
 .imggallary {
     font-size: 2rem;
     font-weight: bold
-    display: flex;
+    display flex;
     align-items: center;
     justify-content: space-between;
     padding: 60px;
