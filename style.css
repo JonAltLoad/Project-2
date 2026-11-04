@@ -1,0 +1,152 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #a0d1d1;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #505e5e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: solid 5px #0e2929
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #000000;
+    margin-left: 10px;
+    white-space: nowrap;
+}
+
+.img1 {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: bottom;
+    margin-top: 10px ; 
+}
+
+.navbar {
+    font-size: 1rem;
+}
+
+.navbar ul{
+    list-style: none;
+    padding: ;
+    margin: ;
+    display: flex; 
+    text-decoration: none;
+}
+  
+.navbar li {
+    background-color: #2e92b9;
+    padding: 10px;
+    border: 3px solid #1a1818;
+}
+
+h2 {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: #000000;
+    margin-left: 10px;
+    white-space: nowrap;
+}
+
+p {
+    font-size: 1rem;
+    justify-self: center;
+    color: #000000;
+}
+
+main section {
+    margin: 0 200px 0 200px;
+}
+
+.imggallary {
+    font-size: 2rem;
+    font-weight: bold
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+iframe {
+    display: flex;
+    justify-self: center;
+    object-fit: cover;
+    object-position: bottom;
+    margin-top: 10px ; 
+}
+
+.img2 {
+    display: flex; 
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border: solid 7px #242729;
+}
+
+.img3 {
+    display: flex; 
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border: solid 7px #242729;
+}
+
+.img4 {
+    display: flex; 
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border: solid 7px #242729;
+}
+
+h4 {
+    justify-self: center;
+}
+
+#featuretable {
+    justify-self: center;
+    justify-content: center;
+    border: 5px solid black;
+    padding: 5px;
+    margin-bottom: 40px;
+}
+
+.td2 {
+    padding: 5px;
+    border: 2px solid black;
+}
+
+footer {
+    background-color: #505e5e;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+h3 {
+    color: #a0d1d1;
+}
+
+#klink {
+    font-weight: bold;
+    color: #a0d1d1;
+}
