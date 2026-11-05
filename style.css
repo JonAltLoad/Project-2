@@ -133,6 +133,15 @@ h4 {
     border: 2px solid black;
 }
 
+form { 
+    display: flex;
+    justify-self: center;
+    justify-content: right;
+    border: 3px solid black;
+    padding: 5px;
+    margin-bottom: 40px;
+}
+
 footer {
     background-color: #505e5e;
     padding-top: 40px;
